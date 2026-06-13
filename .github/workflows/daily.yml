@@ -1,0 +1,44 @@
+name: Daily Seed Garden
+
+on:
+  schedule:
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seed-garden
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest
+
+      - name: Generate garden data
+        run: python -m garden.generate
+
+      - name: Build static site
+        run: python site/build.py
+
+      - name: Commit generated artifact
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "bot: generate daily seed garden"
+          file_pattern: "data/garden.json state/worldroot.json state/chronicle.json output/index.html output/styles.css docs/devlog/*.md"
