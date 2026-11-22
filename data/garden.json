@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "font": {
-    "category": "mono",
+    "category": "serif",
     "explanation": "Font is selected deterministically from today's seed hash.",
-    "id": "space-mono",
+    "id": "eb-garamond",
     "mood": [
-      "retro",
-      "terminal",
-      "artifact"
+      "bookish",
+      "scholarly",
+      "historical"
     ],
-    "name": "Space Mono",
-    "stack": "\"Space Mono\", \"Courier New\", monospace"
+    "name": "EB Garamond",
+    "stack": "\"EB Garamond\", Georgia, \"Times New Roman\", serif"
   },
   "mode": "daily",
   "natural_signal": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "explanation": "Natural signal combines moon phase, its associated sacred site, and optional Open-Meteo weather.",
-    "moon_age_fraction": 0.4011,
+    "moon_age_fraction": 0.435,
     "moon_phase": "waxing_gibbous",
     "sacred_site": "Stonehenge",
     "site": {
@@ -24,56 +24,57 @@
       "lon": -1.8262,
       "name": "Stonehenge"
     },
-    "site_pressure": 1000.9,
+    "site_pressure": 1001.5,
     "weather": {
-      "relative_humidity_2m": 91,
-      "surface_pressure": 1000.9,
-      "temperature_2m": 7.4,
-      "weather_code": 2,
+      "relative_humidity_2m": 73,
+      "surface_pressure": 1001.5,
+      "temperature_2m": 6.4,
+      "weather_code": 3,
       "weather_status": "available",
-      "wind_speed_10m": 9.7
+      "wind_speed_10m": 13.0
     },
     "weather_status": "available"
   },
   "palette": {
-    "accent": "#b6b6b6",
-    "background": "#000000",
-    "description": "2-bit Grayscale Palette. https://lospec.com/palette-list/2-bit-grayscale",
+    "accent": "#6b8dff",
+    "background": "#eef3ff",
+    "description": "Planning. Geometry. Possibility.",
     "explanation": "Palette is selected deterministically from today's seed hash.",
-    "id": "2-bit-grayscale",
-    "muted": "#676767",
-    "name": "2-bit Grayscale",
-    "text": "#676767"
+    "id": "blueprint",
+    "muted": "#8fa7d8",
+    "name": "Blueprint",
+    "text": "#0f3fff"
   },
   "sections": [
     {
       "data": {
-        "binary": "110001",
+        "binary": "111001",
         "changing_lines": [
-          1
+          3,
+          4
         ],
         "explanation": "The hexagram is generated from today's seed and influences Worldroot's growth, decay, and movement.",
-        "hexagram": 42,
+        "hexagram": 25,
         "keywords": [
-          "increase",
-          "growth",
-          "benefit",
-          "expansion"
+          "innocence",
+          "spontaneity",
+          "truth",
+          "naturalness"
         ],
         "lower_trigram": {
           "name": "Thunder",
           "symbol": "\u2633"
         },
         "modifiers": {
-          "growth": 0.03,
-          "movement": -0.04,
-          "rot": -0.015
+          "growth": 0.1,
+          "movement": 0.0,
+          "rot": -0.07
         },
-        "name": "Increase",
-        "unicode": "\u4de9",
+        "name": "Innocence",
+        "unicode": "\u4dd8",
         "upper_trigram": {
-          "name": "Wind",
-          "symbol": "\u2634"
+          "name": "Heaven",
+          "symbol": "\u2630"
         }
       },
       "id": "iching",
@@ -82,7 +83,7 @@
     },
     {
       "data": {
-        "ascii": "T*Tx,T*#TTxx.TT*~*x#\n.*.TTTT,T#*T~TxTT.*T\nT,.,TxxTT,.*.TT,*.Tx\n~T.TT~.,T*,*T*TT*.*x\n*,,x,x*T.T.xx#.TTTTo\n,T~T.TT.Tx..TT.T*.T,\nxTT..,T.T~*TT#..Tx,T\n#.Tx~T**,T*,#TTT#x,T\nT.*.T*~#*#.#~T~TT.,.\nx*xTT.TT#x#.T**T.TT~\nTx.*xTT.*,.TTTTx,xx.\nT*xT~,TTTT.*T,~T**.T\n*.TTxTx~TT,TTTT#TT.x\n,TT~T,x.*.TT.Tx#T*..\nTTx~T,*x.T,Tx*T*TToT\nT.T*T.#TT.T,xTTx*T.T\nxT#T.,TTT*..TT.*T.TT\n*Tx,*~TTT.xT~TTTxTxT\nT.T*~,TTxT##xxxT.T~.\nT*x,#*.TTxT.TTxT....",
+        "ascii": "T*Tx*T*#TTxx.TT*~*.#\n.*.TTTT*T#*T~T.TT.*T\nT*.,TxxTT,.*,TT,*.T.\n~T.TT~,*TT,TT*TT*.*x\n**,x,x*T.T.xx#,TTTTo\n,T~T.TT,Tx..TT.Tx.T*\nxTT..,T.T~*TT#,.Tx,T\n#,Tx~T***T*,#TTT#x,T\nT.*.T*~#*#.#~T~TT.*.\nx*.TT.TT#x#.T**T.TT~\nT..*xTT.**.TTTTx*xx.\nTTxT~*TTTT.TT*~T**.T\n*.TTxTx~TT,TTTT#TT..\n*TT~T*x.*,TT,T.#T*..\nTTx~T,*x.T,Tx*T*TT.T\nT.TTT.#TT.T*.TTx*ToT\n.T#T.,TTT*..TT.*T,TT\n*Tx,*~TTT.xT~TTTxTxT\nT.T*~,TTxT##.x.T.T~.\nT*x,#T.TTxT.TT.T....",
         "caption": "Water holds the pattern open.",
         "chronicle": {
           "current_era": {
@@ -208,165 +209,18 @@
             "oldest_tree_cycles": 91
           }
         },
-        "cycle": 169,
+        "cycle": 170,
         "events": [],
         "explanation": "Worldroot advances one deterministic cycle from the previous state using today's seed and I Ching modifiers.",
         "grid": [
           [
             {
-              "cycles": 63,
+              "cycles": 64,
               "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 30,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 29,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 26,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "rot",
               "name": null
             },
             {
               "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 60,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 19,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 18,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 18,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 30,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 4,
               "kind": "bloom",
               "name": null
             },
@@ -376,33 +230,8 @@
               "name": null
             },
             {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
+              "cycles": 4,
               "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 13,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 7,
-              "kind": "empty",
               "name": null
             },
             {
@@ -411,74 +240,154 @@
               "name": null
             },
             {
-              "cycles": 10,
+              "cycles": 30,
               "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 9,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 27,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 61,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
               "name": null
             }
           ],
           [
             {
               "cycles": 1,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "sprout",
+              "kind": "empty",
               "name": null
             },
             {
               "cycles": 5,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 26,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 2,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 1,
+              "cycles": 20,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 19,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 19,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 25,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 31,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 32,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
               "kind": "empty",
               "name": null
             },
@@ -488,142 +397,100 @@
               "name": null
             },
             {
-              "cycles": 26,
+              "cycles": 14,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 0,
+              "cycles": 8,
               "kind": "empty",
               "name": null
             },
             {
-              "cycles": 29,
-              "kind": "tree",
+              "cycles": 1,
+              "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 1,
-              "kind": "rot",
+              "cycles": 11,
+              "kind": "tree",
               "name": null
             }
           ],
           [
             {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 26,
+              "cycles": 2,
               "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 17,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
               "name": null
             },
             {
               "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 56,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 4,
-              "kind": "sprout",
+              "cycles": 6,
+              "kind": "empty",
               "name": null
             },
             {
               "cycles": 1,
-              "kind": "bloom",
+              "kind": "sprout",
               "name": null
             },
             {
               "cycles": 4,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 5,
               "kind": "tree",
               "name": null
             },
             {
               "cycles": 27,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 4,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 29,
-              "kind": "tree",
+              "cycles": 2,
+              "kind": "sprout",
               "name": null
             },
             {
-              "cycles": 4,
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 3,
               "kind": "bloom",
               "name": null
             },
             {
               "cycles": 0,
-              "kind": "empty",
+              "kind": "sprout",
               "name": null
             },
             {
-              "cycles": 5,
-              "kind": "bloom",
+              "cycles": 26,
+              "kind": "tree",
               "name": null
             },
             {
-              "cycles": 3,
-              "kind": "rot",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 7,
-              "kind": "bloom",
+              "cycles": 27,
+              "kind": "tree",
               "name": null
             },
             {
@@ -632,32 +499,34 @@
               "name": null
             },
             {
-              "cycles": 3,
-              "kind": "sprout",
-              "name": null
-            },
-            {
               "cycles": 5,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 17,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 14,
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 30,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 27,
               "kind": "tree",
               "name": null
             },
@@ -667,18 +536,145 @@
               "name": null
             },
             {
-              "cycles": 11,
+              "cycles": 2,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 18,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 57,
               "kind": "tree",
               "name": null
             },
             {
               "cycles": 0,
-              "kind": "empty",
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "sprout",
               "name": null
             },
             {
               "cycles": 0,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 28,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 30,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 4,
               "kind": "rot",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 8,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 18,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
               "name": null
             },
             {
@@ -687,22 +683,74 @@
               "name": null
             },
             {
-              "cycles": 169,
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 170,
               "kind": "stone",
               "name": null
             },
             {
               "cycles": 0,
-              "kind": "empty",
+              "kind": "sprout",
               "name": null
             },
             {
-              "cycles": 17,
+              "cycles": 18,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 14,
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 38,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 31,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "wanderer",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 9,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 26,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 22,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 42,
               "kind": "tree",
               "name": null
             },
@@ -712,529 +760,12 @@
               "name": null
             },
             {
-              "cycles": 30,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "wanderer",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 8,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 25,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 21,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 41,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 36,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 39,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 9,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 45,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 16,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "sprout",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 27,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 16,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 12,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 9,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 25,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 25,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 26,
-              "kind": "tree",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 7,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 29,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 34,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 7,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "bloom",
-              "name": null
-            },
-            {
               "cycles": 0,
               "kind": "sprout",
               "name": null
             },
             {
-              "cycles": 2,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 18,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 9,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 43,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 35,
-              "kind": "tree",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 29,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 21,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 29,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 36,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 28,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 13,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 9,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 35,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 19,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 7,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 12,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 22,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 27,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 18,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 0,
+              "cycles": 40,
               "kind": "tree",
               "name": null
             },
@@ -1244,308 +775,17 @@
               "name": null
             },
             {
-              "cycles": 11,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
               "cycles": 7,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 23,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
               "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 7,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
               "name": null
             },
             {
               "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 24,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "empty",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 12,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 25,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 21,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
               "kind": "empty",
               "name": null
             },
             {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 74,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 16,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 23,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 15,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 15,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 30,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 31,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 79,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 20,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 31,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 34,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 26,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "rot",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 13,
+              "cycles": 46,
               "kind": "tree",
               "name": null
             },
@@ -1555,18 +795,120 @@
               "name": null
             },
             {
-              "cycles": 169,
-              "kind": "water",
+              "cycles": 7,
+              "kind": "empty",
               "name": null
             },
             {
-              "cycles": 0,
+              "cycles": 5,
               "kind": "tree",
               "name": null
             },
             {
+              "cycles": 0,
+              "kind": "rot",
+              "name": null
+            },
+            {
               "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 25,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 28,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 17,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 3,
               "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 25,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 13,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 10,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 26,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 26,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "tree",
               "name": null
             },
             {
@@ -1575,7 +917,206 @@
               "name": null
             },
             {
+              "cycles": 3,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 27,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 30,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 35,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 8,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 19,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 10,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 44,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 36,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 30,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "empty",
+              "name": null
+            },
+            {
               "cycles": 5,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 22,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 30,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 37,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 29,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 6,
               "kind": "empty",
               "name": null
             },
@@ -1588,141 +1129,173 @@
               "cycles": 2,
               "kind": "empty",
               "name": null
-            },
+            }
+          ],
+          [
             {
-              "cycles": 7,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 34,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 14,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
+              "cycles": 2,
               "kind": "rot",
               "name": null
             },
             {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 10,
+              "cycles": 14,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 4,
+              "cycles": 0,
               "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 36,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 20,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 8,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 13,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 23,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 25,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 28,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 19,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 1,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 8,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 24,
+              "kind": "tree",
               "name": null
             },
             {
               "cycles": 5,
               "kind": "empty",
               "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 18,
-              "kind": "tree",
-              "name": null
             },
             {
-              "cycles": 22,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 26,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 6,
+              "cycles": 2,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 1,
-              "kind": "rot",
+              "cycles": 0,
+              "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 1,
+              "cycles": 25,
               "kind": "empty",
               "name": null
             },
             {
-              "cycles": 9,
+              "cycles": 5,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 21,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 46,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 10,
+              "cycles": 11,
               "kind": "tree",
               "name": null
             },
@@ -1732,85 +1305,50 @@
               "name": null
             },
             {
-              "cycles": 169,
-              "kind": "wanderer",
+              "cycles": 9,
+              "kind": "tree",
               "name": null
             },
             {
-              "cycles": 49,
-              "kind": "tree",
-              "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 7,
-              "kind": "tree",
+              "cycles": 6,
+              "kind": "rot",
               "name": null
             },
             {
               "cycles": 0,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 48,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 2,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
+              "cycles": 25,
+              "kind": "rot",
               "name": null
             },
             {
               "cycles": 2,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 28,
-              "kind": "tree",
+              "kind": "rot",
               "name": null
             },
             {
               "cycles": 6,
               "kind": "empty",
               "name": null
-            },
+            }
+          ],
+          [
             {
-              "cycles": 31,
+              "cycles": 11,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 9,
-              "kind": "sprout",
+              "cycles": 0,
+              "kind": "tree",
               "name": null
             },
             {
-              "cycles": 3,
+              "cycles": 2,
               "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 26,
-              "kind": "tree",
               "name": null
             },
             {
@@ -1819,22 +1357,37 @@
               "name": null
             },
             {
-              "cycles": 5,
-              "kind": "rot",
+              "cycles": 170,
+              "kind": "water",
               "name": null
             },
             {
-              "cycles": 15,
+              "cycles": 0,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 7,
+              "cycles": 11,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 1,
+              "cycles": 26,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 22,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 5,
               "kind": "empty",
               "name": null
             },
@@ -1842,41 +1395,61 @@
               "cycles": 0,
               "kind": "tree",
               "name": null
-            }
-          ],
-          [
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
             },
             {
-              "cycles": 23,
+              "cycles": 75,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 169,
-              "kind": "stone",
+              "cycles": 0,
+              "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 29,
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 11,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 1,
+              "cycles": 2,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 17,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 3,
               "kind": "empty",
               "name": null
             },
             {
-              "cycles": 1,
-              "kind": "sprout",
+              "cycles": 5,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 24,
+              "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 27,
+              "cycles": 3,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 16,
               "kind": "tree",
               "name": null
             },
@@ -1886,63 +1459,83 @@
               "name": null
             },
             {
-              "cycles": 2,
+              "cycles": 9,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 31,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 5,
-              "kind": "bloom",
+              "cycles": 6,
+              "kind": "rot",
               "name": null
             },
             {
-              "cycles": 0,
-              "kind": "empty",
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 32,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 80,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 9,
+              "kind": "sprout",
               "name": null
             },
             {
               "cycles": 21,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 32,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 35,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 27,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
               "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 23,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "tree",
               "name": null
             },
             {
               "cycles": 0,
               "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 8,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 20,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 23,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "tree",
               "name": null
             }
           ],
@@ -1950,41 +1543,6 @@
             {
               "cycles": 0,
               "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 9,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 0,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 5,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "tree",
               "name": null
             },
             {
@@ -1993,64 +1551,62 @@
               "name": null
             },
             {
+              "cycles": 18,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
               "cycles": 6,
               "kind": "empty",
               "name": null
             },
             {
               "cycles": 1,
-              "kind": "rot",
+              "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 18,
-              "kind": "tree",
+              "cycles": 0,
+              "kind": "sprout",
               "name": null
             },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 6,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 18,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 11,
-              "kind": "tree",
-              "name": null
-            }
-          ],
-          [
             {
               "cycles": 8,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 35,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 15,
               "kind": "tree",
               "name": null
             },
@@ -2060,68 +1616,8 @@
               "name": null
             },
             {
-              "cycles": 3,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "bloom",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "sprout",
-              "name": null
-            },
-            {
-              "cycles": 19,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 51,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 3,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 4,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
+              "cycles": 170,
               "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "stone",
-              "name": null
-            },
-            {
-              "cycles": 20,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "rot",
               "name": null
             },
             {
@@ -2130,60 +1626,105 @@
               "name": null
             },
             {
-              "cycles": 0,
+              "cycles": 11,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 5,
               "kind": "empty",
               "name": null
             },
             {
-              "cycles": 8,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 169,
-              "kind": "water",
-              "name": null
-            },
-            {
-              "cycles": 7,
+              "cycles": 6,
               "kind": "empty",
               "name": null
             }
           ],
           [
             {
-              "cycles": 21,
+              "cycles": 19,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 3,
+              "cycles": 23,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 27,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 7,
               "kind": "bloom",
               "name": null
             },
             {
-              "cycles": 3,
+              "cycles": 2,
               "kind": "rot",
               "name": null
             },
             {
               "cycles": 2,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 10,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
               "kind": "sprout",
               "name": null
             },
             {
-              "cycles": 169,
-              "kind": "stone",
+              "cycles": 22,
+              "kind": "tree",
               "name": null
             },
             {
-              "cycles": 11,
-              "kind": "bloom",
+              "cycles": 9,
+              "kind": "rot",
               "name": null
             },
             {
               "cycles": 2,
-              "kind": "empty",
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 47,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "tree",
               "name": null
             },
             {
@@ -2192,13 +1733,85 @@
               "name": null
             },
             {
-              "cycles": 10,
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 50,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 8,
               "kind": "tree",
               "name": null
             },
             {
               "cycles": 1,
-              "kind": "rot",
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 49,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 29,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 32,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 27,
+              "kind": "tree",
               "name": null
             },
             {
@@ -2207,7 +1820,308 @@
               "name": null
             },
             {
-              "cycles": 50,
+              "cycles": 6,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 16,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 8,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "wanderer",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 24,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 30,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 28,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 17,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 22,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 24,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 9,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 21,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 24,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 1,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 10,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 6,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 19,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 7,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 19,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 12,
+              "kind": "tree",
+              "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 9,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "water",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 20,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 52,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 5,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 0,
               "kind": "empty",
               "name": null
             },
@@ -2217,37 +2131,124 @@
               "name": null
             },
             {
+              "cycles": 1,
+              "kind": "empty",
+              "name": null
+            },
+            {
               "cycles": 9,
               "kind": "tree",
               "name": null
             },
             {
-              "cycles": 1,
-              "kind": "rot",
-              "name": null
-            },
-            {
-              "cycles": 45,
-              "kind": "tree",
-              "name": null
-            },
-            {
-              "cycles": 10,
-              "kind": "empty",
-              "name": null
-            },
-            {
-              "cycles": 2,
-              "kind": "empty",
+              "cycles": 170,
+              "kind": "water",
               "name": null
             },
             {
               "cycles": 8,
               "kind": "empty",
               "name": null
+            }
+          ],
+          [
+            {
+              "cycles": 22,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "bloom",
+              "name": null
+            },
+            {
+              "cycles": 4,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "sprout",
+              "name": null
+            },
+            {
+              "cycles": 170,
+              "kind": "stone",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 14,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 2,
+              "kind": "rot",
+              "name": null
+            },
+            {
+              "cycles": 15,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 51,
+              "kind": "empty",
+              "name": null
             },
             {
               "cycles": 7,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 10,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 0,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 46,
+              "kind": "tree",
+              "name": null
+            },
+            {
+              "cycles": 11,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 3,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 9,
+              "kind": "empty",
+              "name": null
+            },
+            {
+              "cycles": 8,
               "kind": "empty",
               "name": null
             }
@@ -2256,37 +2257,37 @@
         "height": 20,
         "named_entities": [
           {
-            "cycles": 169,
+            "cycles": 170,
             "kind": "wanderer",
             "name": "The Oldest Wanderer",
             "x": 19,
             "y": 4
           },
           {
-            "cycles": 169,
+            "cycles": 170,
             "kind": "wanderer",
             "name": "The Oldest Wanderer",
             "x": 18,
-            "y": 14
+            "y": 15
           },
           {
-            "cycles": 79,
+            "cycles": 80,
             "kind": "tree",
-            "name": "Tree of 79 Cycles",
+            "name": "Tree of 80 Cycles",
             "x": 9,
             "y": 12
           },
           {
-            "cycles": 74,
+            "cycles": 75,
             "kind": "tree",
-            "name": "Tree of 74 Cycles",
+            "name": "Tree of 75 Cycles",
             "x": 12,
             "y": 11
           },
           {
-            "cycles": 63,
+            "cycles": 64,
             "kind": "tree",
-            "name": "Tree of 63 Cycles",
+            "name": "Tree of 64 Cycles",
             "x": 0,
             "y": 0
           }
@@ -2300,12 +2301,12 @@
           "oldest_tree_cycles": 91
         },
         "stats": {
-          "bloom": 48,
-          "empty": 67,
-          "rot": 49,
-          "sprout": 33,
+          "bloom": 56,
+          "empty": 70,
+          "rot": 38,
+          "sprout": 27,
           "stone": 20,
-          "tree": 161,
+          "tree": 167,
           "wanderer": 2,
           "water": 20
         },
@@ -2319,14 +2320,14 @@
   "seed": {
     "explanation": "Generated from the date, previous Worldroot checksum, moon phase, sacred site, and site pressure.",
     "inputs": {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "moon_phase": "waxing_gibbous",
       "sacred_site": "Stonehenge",
-      "site_pressure": 1000.9,
-      "worldroot_checksum": "5a682902"
+      "site_pressure": 1001.5,
+      "worldroot_checksum": "ec99c185"
     },
-    "seed_hash": "29cc7c874aaa24fd6e9f210fe9129b92ba7b2114772f1b7e7235a00abf564669",
-    "seed_material": "date=2026-11-21|moon_phase=waxing_gibbous|sacred_site=Stonehenge|site_pressure=1000.9|worldroot_checksum=5a682902",
-    "short_seed": "29cc7c874aaa"
+    "seed_hash": "049f45dfb6d1e8067f75e654eeb01f9a8f2cc52f55186f5a6cffd9d3655e6598",
+    "seed_material": "date=2026-11-22|moon_phase=waxing_gibbous|sacred_site=Stonehenge|site_pressure=1001.5|worldroot_checksum=ec99c185",
+    "short_seed": "049f45dfb6d1"
   }
 }
